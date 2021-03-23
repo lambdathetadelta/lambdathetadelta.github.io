@@ -1,0 +1,36 @@
+body
+{
+    background-color:#2C2F33;
+}
+#title-page
+{
+    color: rgb(255, 255, 255);
+    font-family: "Cantarell";
+    font-weight: 100;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5em;
+    text-align: center;
+    border-bottom: 3px solid #bbb;
+    padding-bottom: 15px;
+}
+.navigation
+{
+    color: rgb(255, 255, 255);
+    font-family: "Ubuntu";
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 100%;
+}
+#home-page-img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-top: 30px;
+}
