@@ -15,6 +15,7 @@ body
     border-bottom: 3px solid #bbb;
     padding-bottom: 15px;
 }
+
 .navigation
 {
     color: rgb(255, 255, 255);
@@ -23,8 +24,124 @@ body
     margin-right: auto;
     width: 70%;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2.0em;
     font-weight: 100%;
+}
+#title-page
+{
+    color: rgb(255, 255, 255);
+    font-family: "Cantarell";
+    font-weight: bold;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.75em;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.about-content
+{
+    color: rgb(255, 255, 255);
+    font-family: "Ubuntu";
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+    font-size: 1.20em;
+}
+.letters
+{
+    color: rgb(255, 255, 255);
+    font-family: "Cantarell";
+    font-weight: bold;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+    text-align: center;
+}
+#navigation
+{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: auto;
+    display: inline-grid;
+    border: 2px solid rgb(255, 255, 255);
+    grid-template-rows: 50%;
+    grid-template-columns: 100px 25% auto auto auto;
+}
+#crest-img
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    justify-self: center;
+    align-self: center;
+    height: 100px;
+    width: 100px;
+}
+#top-text
+{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-left: 8%;
+    justify-self: center; 
+    align-self: end; 
+    font-size: 1.3em;
+    color: rgb(255, 255, 255);
+    font-family: "Cantarell";
+}
+#bottom-text
+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-self: center;
+    align-self: start;
+    margin-left: 8%;
+    border-top: 2px solid rgb(255, 255, 255);
+    margin-top: 1%;
+    color: rgb(255, 255, 255);
+    font-family: "Cantarell";
+    align-self: start;
+    font-size: 1.3em;
+}
+.nav-button
+{
+    background-color: #2C2F33;
+    font-family: "Cantarell";
+    font-size: 1.4em;
+    color: rgb(255, 255, 255);
+    justify-self: center;
+    align-self: center;
+}
+#home-button
+{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#about-button
+{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+#rush-button
+{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 5;
+    grid-column-end: 6;
 }
 
 #home-page-img
