@@ -2,7 +2,7 @@ body
 {
     background-color:#2C2F33;
 }
-#title-page
+#frat-title
 {
     color: rgb(255, 255, 255);
     font-family: "Cantarell";
@@ -26,6 +26,7 @@ body
     font-size: 1.5em;
     font-weight: 100%;
 }
+
 #home-page-img
 {
     display: block;
