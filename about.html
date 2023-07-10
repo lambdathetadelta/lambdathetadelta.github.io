@@ -23,21 +23,25 @@
 
 
     <body>
-       <div id = "navigation">
-            <img src = "LTDCrest.png" alt = "NOT WORKING" id = "crest-img"></img> 
-            <span id = "top-text">
+        <div id="nav-background"></div>
+        <div id="navigation">
+            <a href="https://www.ltdfraternity.com" id="crest-img-link">
+                <img src="LTDCrest.png" alt="Crest of Lambda Theta Delta" id="crest-img"></img>
+            </a>
+            <button id="top-text" onclick="homeClick()">
                 Lambda Theta Delta
-            </span>
-            <span id = "bottom-text">
-                Loyalty, Trust, Diversity
-            </span>
+            </button>
+            <button id="bottom-text" onclick="homeClick()">
+                Loyalty. Trust. Diversity.
+            </button>
 
-            <button class = "nav-button" id = "home-button" onclick="homeClick()">Home</button>
+            <button class="nav-button" id="about-button" onclick="aboutClick()">About</button>
 
-            <button class = "nav-button" id = "about-button" onclick="aboutClick()">About</button>
+            <button class="nav-button" id="rush-button" onclick="rushClick()">Rush</button>
 
-            <button class = "nav-button" id = "rush-button" onclick="rushClick()">Rush</button>
+            <button class="nav-button" id="contact-button" onclick="contactClick()">Contact</button>
         </div>
+
 
         <div id = "title-page">Welcome to LTD!</div>
 
