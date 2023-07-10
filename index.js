@@ -1,9 +1,5 @@
 "use strict"
 
-function homeClick()
-{
-    window.location.href = "https://www.ltdfraternity.com";
-}
 
 function aboutClick()
 {
@@ -13,4 +9,14 @@ function aboutClick()
 function rushClick()
 {
     /* Rush not made yet */
+}
+
+function contactClick()
+{
+    /* Contact not made yet */
+}
+
+function homeClick()
+{
+    window.location.href = "https://www.ltdfraternity.com"
 }
