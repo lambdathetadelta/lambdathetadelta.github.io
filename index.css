@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&swap=display");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&swap=display");
+@import url("https://fonts.googleapis.com/css2?family=Avenir+Light&text=More%20About%20Us&swap=display");
+@import url("https://fonts.googleapis.com/css2?family=Jost&swap=display");
+@import url("https://fonts.googleapis.com/css2?family=REM&swap=display");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&text=INTEREST%20FORM&swap=display");
+
 body
 {
     overflow-x: hidden;
@@ -11,7 +18,6 @@ body
     background-position: center;
     background-size: cover;
     height: 850px;
-    min-height: 100vh;
 }
 #middle-banner
 {
