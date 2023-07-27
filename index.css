@@ -1,23 +1,30 @@
+body
+{
+    overflow-x: hidden;
+}
 #middle-section
 {
     background-image: url("imgs/GRADWEB.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 100% 200%;
     background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     height: 850px;
+    min-height: 100vh;
 }
 #middle-banner
 {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    height: 140px;
+    height: auto;
     width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
     display: grid;
     background-color: rgb(130, 130, 130, 60%);
     text-align: center;
-    white-space: nowrap;
 }
 #middle-banner-text-1
 {  
@@ -28,12 +35,12 @@
 }
 #middle-banner-text-2
 {
+    margin-top: 10px;
     color: white;
     opacity: 100%;
     font-family: "Raleway";
     font-size: 62px;
     font-weight: 900;
-    margin-top: 0px;
 }
 #diff-way-bar
 {
@@ -43,11 +50,13 @@
 {
     font-family: "Raleway";
     font-size: 56px;
+    margin-bottom: 30px;
 }
 #diff-way-bottom
 {
-    margin: auto;
-    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
     font-family: "Open Sans";
     font-size: 15px;
     line-height: 1.5;
