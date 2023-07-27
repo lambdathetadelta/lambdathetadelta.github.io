@@ -1,6 +1,6 @@
 #middle-section
 {
-    background-image: url("GRADWEB.jpg");
+    background-image: url("imgs/GRADWEB.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100% 200%;
@@ -32,6 +32,134 @@
     opacity: 100%;
     font-family: "Raleway";
     font-size: 62px;
-    font-weight: 1000;
+    font-weight: 900;
     margin-top: 0px;
+}
+#diff-way-bar
+{
+    text-align: center;
+}
+#diff-way-bar p
+{
+    font-family: "Raleway";
+    font-size: 56px;
+}
+#diff-way-bottom
+{
+    margin: auto;
+    width: 700px;
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: 1.5;
+}
+#diff-way-buttons 
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+#diff-way-buttons a.button
+{
+    width: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0);
+    text-align: center;
+}
+#diff-way-buttons a:nth-child(1) 
+{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: "Avenir Light";
+}
+#diff-way-buttons a:nth-child(2) 
+{
+    background-color: inherit;
+    font-family: "Playfair Display";
+    font-weight: 900;
+    font-size: 15px;
+    color: black;
+    line-height: 1.4;
+}
+#contact
+{
+    background-color: #2A2A2A;
+    color: white;
+    font-family: "Nunito";
+    font-size: 23px;
+}
+#contact > p
+{
+    margin-top: 60px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    font-family: "Raleway";
+    font-size: 60px;
+    text-align: center;
+}
+.social-links
+{
+    margin-bottom: 15px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+#contact img
+{
+    border-radius: 25px;
+    background-size: contain;
+    background-color: white;
+    vertical-align: middle;
+    height: 40px;
+}
+#contact > span
+{
+    font-size: 23px;
+    margin-top: 60px;
+    display: block;
+    font-family: "Jost";
+    text-align: center;
+    margin-bottom: 30px
+}
+#rush-contacts
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 900px;
+    gap: 0px 150px;
+}
+.rush-chair
+{
+    padding: 10px;
+    width: 300px;
+    height: 130px;
+    border: 7px solid white;
+    background-color: maroon;
+    font-size: 18px;
+}
+.rush-chair-name
+{
+    font-family: "REM";
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 7px;
+}
+.rush-chair-number
+{
+    font-family: "Georgia";
+    font-size: 17px;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+.rush-chair-subinfo
+{
+    font-size: 16px;
 }

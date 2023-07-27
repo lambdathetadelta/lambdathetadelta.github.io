@@ -5,7 +5,7 @@ document.write(`
     <nav id="navigation">
         <div id="crest-img">
             <a href="https://www.ltdfraternity.com">
-                <img src="LTDCrestWhiteV1.png" alt="Crest of Lambda Theta Delta" id="crest-img"></img>
+                <img src="imgs/LTDCrestWhiteV1.png" alt="Crest of Lambda Theta Delta" id="crest-img">
             </a>
         </div>
         <a href="https://www.ltdfraternity.com" id="ltd-text">
@@ -41,7 +41,7 @@ document.write(`
         
         <div id="instagram-img">
             <a href="https://www.instagram.com/lambdathetadelta" target="_blank">
-                <img src="instagram.png" alt="Instagram Logo" id="instagram-img"></img>
+                <img src="imgs/instagram.png" alt="Instagram Logo" id="instagram-img">
             </a>
         </div>
 
