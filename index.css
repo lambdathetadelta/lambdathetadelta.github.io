@@ -1,7 +1,6 @@
-body
-{
-    overflow-x: hidden;
-}
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Nunito&family=Jost&family=REM&family=Playfair+Display:wght@700&swap=display");
+
 #middle-section
 {
     background-image: url("imgs/GRADWEB.jpg");
@@ -11,6 +10,7 @@ body
     background-position: center;
     background-size: cover;
     height: 850px;
+    min-height: 90vh;
 }
 #middle-banner
 {
