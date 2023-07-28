@@ -37,7 +37,7 @@ document.write(`
             </div>
         </div>
 
-        <a href="https://www.ltdfraternity.com/contact" class="nav-button" id="contact-button">Contact</a>
+        <a href="https://www.ltdfraternity.com#contact" class="nav-button" id="contact-button">Contact</a>
         
         <div id="instagram-img">
             <a href="https://www.instagram.com/lambdathetadelta" target="_blank">
