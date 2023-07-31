@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&swap=display");
+
+#about-title
+{
+    margin-top: 130px;
+    font-size: 70px;
+    font-family: "Raleway";
+    text-align: center;
+}
+#about-title-border
+{
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    border-bottom: 0.42rem solid black;
+    margin-bottom: 3vh;
+}
+.about-section-content
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    min-width: 30%;
+    max-width: 35%;
+    font-family: "Open Sans";
+    text-align: center;
+    line-height: 1.7;
+    font-size: 1.15rem;
+}
+.about-section-title
+{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 1.7rem;
+}
+.about-section-title + p
+{
+    margin-top: 0px;
+}
+
+#exec-info-container
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px 60px;
+}
+.exec-info
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 500px;
+}
+.exec-info-card
+{
+    height: 160px;
+    background-color: #2A2A2A;
+    color: white;
+}
+.exec-info-card > div
+{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-family: "Raleway";
+    font-size: 22px;
+}
+.exec-info-card > div > img
+{
+    height: 128px;
+}
+.exec-info > p
+{
+    font-family: "Open Sans";
+    font-size: 0.9rem;
+    height: 100px;
+    line-height: 1.7;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+@media screen and (max-width: 500px)
+{
+    .about-section-content
+    {
+        max-width: 90%;
+    }
+    .exec-info > p
+    {
+        height: 180px;
+        max-width: 90%;
+        text-align: center;
+        align-self: center;
+    }
+    .exec-info-card > div
+    {
+        justify-content: space-evenly;
+    }
+}
