@@ -92,7 +92,7 @@
     }
     .exec-info > p
     {
-        height: 180px;
+        height: auto;
         max-width: 90%;
         text-align: center;
         align-self: center;
