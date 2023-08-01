@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cinzel&swap=display");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Inter&swap=display");
 
 a
 {
@@ -37,7 +37,7 @@ a
     background-color: inherit;
     border: none;
     outline: none;
-    font-family: "Helvetica";
+    font-family: "Inter";
     font-size: 19px;
     color: rgb(255, 255, 255);
     position: relative;
