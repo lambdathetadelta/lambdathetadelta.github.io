@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&swap=display");
+
+#history-content
+{
+    text-align: center;
+    margin-top: 130px;
+    font-family: "Raleway";
+    font-size: 70px;
+    min-width: 30%;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#history-title-border
+{
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    border-bottom: 0.42rem solid black;
+    margin-bottom: 3vh;
+}
+#history-content > p
+{
+    font-family: "Open Sans";
+    font-size: 1.1rem;
+    line-height: 2.5;
+}
+#connections-container
+{
+    margin-top: 80px;
+    margin-bottom: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 300px;
+    align-items: center;
+}
+#connections-container > a > img
+{
+    height: 200px;
+}
+@media screen and (max-width: 500px)
+{
+    #history-content
+    {
+        max-width: 90%;
+    }
+    #connections-container > a > img
+    {
+        height: 120px;
+    }
+}
+@media screen and (max-width: 1060px)
+{
+    #connections-container
+    {
+        gap: 10px;
+    }
+}
