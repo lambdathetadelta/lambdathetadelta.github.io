@@ -89,6 +89,7 @@ html
 {
     margin-top: 30px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 70px;
 }
@@ -192,6 +193,13 @@ html
     background-color: maroon;
     margin: -7px;
     font-size: 18px;
+}
+@media screen and (max-width: 300px)
+{
+    #rush-contacts
+    {
+        width: 100%;
+    }
 }
 .rush-chair-name
 {
