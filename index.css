@@ -144,12 +144,27 @@ html
 }
 #contact img
 {
-    border-radius: 25px;
-    background-size: 40px;
-    background-color: white;
     vertical-align: middle;
     height: 40px;
 }
+#instagram-background
+{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    margin-top: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: auto;
+    border-radius: 50%;
+}
+#instagram-background > img
+{
+    margin-left: 1px;
+    height: 25px;
+    width: 25px;
+} 
 #contact > span
 {
     font-size: 23px;

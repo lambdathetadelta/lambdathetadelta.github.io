@@ -21,8 +21,8 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
-    min-width: 30%;
-    max-width: 40%;
+    width: 900px;
+    max-width: 90%;
     font-family: "Open Sans";
     text-align: center;
     line-height: 1.7;
@@ -86,10 +86,6 @@
 }
 @media screen and (max-width: 500px)
 {
-    .about-section-content
-    {
-        max-width: 90%;
-    }
     .exec-info > p
     {
         height: auto;
