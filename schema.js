@@ -40,6 +40,8 @@
 // `);
 
 const supplementaryData = {
+    "@context": "https://schema.org/",
+    "@type": "Organization",
     "contactPoint": [
         {
             "@type" : "ContactPoint",
@@ -75,6 +77,6 @@ const supplementaryData = {
 const contactElement = document.createElement("script");
 
 contactElement.type = "application/ld+json";
-contactElementt.textContent = JSON.stringify(supplementaryData);
+contactElement.textContent = JSON.stringify(supplementaryData);
   
 document.head.appendChild(contactElement);
