@@ -24,7 +24,7 @@
     padding-bottom: 100px;
     margin-top: 170px;
     width: 450px;
-    height: 400px;
+    height: 450px;
     top: 100px;
     left: 80px;
     background-color: rgb(204, 204, 204);
@@ -52,6 +52,7 @@ h1 {
     width: 150px;
     height: 40px;
     border-radius: 10px;
+    border: 0px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -61,7 +62,7 @@ h1 {
 }
 
 #the-program-h1 {
-    margin-top: 900px;
+    margin-top: 920px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
