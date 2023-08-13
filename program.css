@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Raleway:wght@100;200;300;400&display=swap');
+
 .overlap {
     position: relative;
 }
@@ -5,6 +7,7 @@
 .elements {
     position: absolute;
 }
+
 
 .img {
     float: right;
@@ -28,9 +31,9 @@
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 56px;
-    font-weight: lighter;
+    font-weight: 200;
 }
 
 .panel-text {
@@ -55,4 +58,45 @@ h1 {
 
 .interest-form:hover {
     background-color: gainsboro;
+}
+
+#the-program-h1 {
+    margin-top: 900px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+
+}
+
+.panels{
+    margin-top: 70px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.panels > div {
+    border: 1px solid;
+    border-color: rgb(117,20,12);
+    box-shadow: 3px 3px 4px 0 rgba(107, 30, 35, 1);
+    height: 380px;
+    width: 340px;
+    margin: 20px;
+}
+
+.panels > div > h3 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;   
+    font-weight: 300;
+}
+
+.panels > div > p {
+    margin: 15px;
+    font-family: 'Raleway', sans-serif;   
+    font-size: 16px;
+    font-weight: 400;
 }
