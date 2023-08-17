@@ -4,12 +4,8 @@
     position: relative;
 }
 
-.elements {
+.overlap > img {
     position: absolute;
-}
-
-
-.img {
     float: right;
     top: 180px;
     right: 80px;
@@ -18,6 +14,7 @@
 }
 
 .panel {
+    position: absolute;
     padding-top: 50px;
     padding-left: 100px;
     padding-right: 80px;
@@ -108,7 +105,8 @@ h1 {
 }
 
 @media only screen and (max-width: 1200px) {
-    .img {
+    .overlap > img {
+        position: static;
         display: none;
         top: 1px;
         right: 1px;
@@ -118,12 +116,9 @@ h1 {
     .overlap {
         position: static;
     }
-
-    .elements {
-        position: static;
-    }
     
     .panel {
+        position: static;
         padding-left: 10%;
         padding-right: 10%;
         margin-right: 5%;
