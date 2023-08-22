@@ -4,6 +4,13 @@ a
 {
     text-decoration: none;
 }
+a:visited,
+a:active,	
+a:link,	
+a:visited
+{
+    color: inherit;
+}
 #nav-background
 {
     z-index: 2;
@@ -115,8 +122,6 @@ a
 }
 
 #hamburger, 
-#mobile-navgiation, 
-#mobile-navigation nav,
 #hamburger::before,
 #hamburger::after,
 #hamburger input
@@ -175,7 +180,7 @@ a
     #hamburger::after,
     #hamburger input
     {
-        content: " ";
+        content: "";
         width: var(--bar-width);
         height: var(--bar-height);
         background-color: white;
@@ -186,7 +191,7 @@ a
         rotate var(--animation-delay), 
         translate var(--animation-delay);
     }
-    #hamburger input
+    input
     {
         appearance: none;
         padding: 0;
@@ -210,5 +215,61 @@ a
     {
         opacity: 0;
         width: 0;
+    }
+    #mobile-navigation
+    {
+        /* visibility: hidden;
+        opacity: 0; */
+        background-color: grey;
+        min-height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-image: url("imgs/mobile-background.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        transition: visibility 0, opacity var(--animation-delay);
+    }
+    #mobile-navigation button
+    {
+        background-color: rgba(128, 0, 0, 0.7);
+        border: none;
+        outline: none;
+        font-family: "Inter";
+        font-size: 19px;
+        color: black;
+    }
+    #mobile-navigation input,
+    #mobile-navigation input::after,
+    #mobile-navigation input::before
+    {
+        width: 40px;
+        content: "";
+        width: var(--bar-width);
+        height: var(--bar-height);
+        background-color: white;
+
+    }
+    
+    #mobile-navigation input::after
+    {
+        content: " "
+    }
+    #mobile-navigation input::before
+    {
+        content:" "
+    }
+    #mobile-navigation > div
+    {
+        margin: 13vh;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    #navigation:has( input:checked) + #mobile-navigation
+    {
+        visibility: visible;
+        opacity: 1;
     }
 }
