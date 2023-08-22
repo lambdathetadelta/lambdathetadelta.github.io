@@ -5,63 +5,67 @@
     margin-top: 6.25em;
     padding-top: 1.875em;
     background-color: #CCCCCC;
+    padding-bottom: 1.3em;
+    
+}
+#overlap
+{
+    position: relative;
+    width: 100%;
 }
 
+
+#overlap > #image
+{
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    z-index: 0;
+    height: 300px;
+    width: 400px;
+
+}
 #rush-top
 {
-    font-family: "Raleway";
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50rem;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -1.2rem;
-    width: 60%;
+    margin-bottom: .75rem;
+    font-family: "Raleway";
 }
 
 #rush-top div:nth-child(2)
 {
-    width: 60%;
     line-height: 1.7;
     text-align: left;
     justify-content: center;
     align-items: center;
-    
+    min-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 
 #rush-top div:first-of-type p /* this is RUSH TITLE */
 {
     font-weight: 600;
     font-size: 3.25rem;
-    margin: 0;
+    width: 50%;
+    
 }
 
 #rush-top div:nth-of-type(2) p /* this is the rush description */
 {
     font-size: 1rem;
     color: white;
+    padding: 1.25rem;
+    margin: 0px;
     background-color: maroon;
-    padding-left: 1.25em;
-
-    padding-right: 1.25em;
-    padding-bottom: 2em;
-    padding-top: 1.25em;
-    float: left;
-    margin-right: 1.25rem;
 }
 
-.clear
-{
-    clear: both;
-}
-
-.image-container
-{
-    padding-top: 1rem;
-}
-
-.img
-{
-    float: right;
-}
 
 .button 
 {
@@ -80,53 +84,92 @@
 
   .button:hover {
 
-    background-color: white; /* Green */
+    background-color: white; 
     color: black;
   }
-
-
 
 #rush-table /* flex container div for the descriptions of rush week*/
 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: stretch;
-    width: 70%;
+    justify-content: center;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
-#rush-table p
+#rush-table > div
 {
-    text-align:center;
     font-weight: 400;
-    padding-top: 1.25em;
-    padding-right: .625em;
-    padding-bottom: 3.75em;
-    padding-left: 1.25em;
-    flex: 1 1 0px;  
+    height: 23.75rem;
+    width: 21.25rem;
+    font-family: "Raleway";
+    border: 1px solid;
+    border-color: black;
+    margin: .25rem;
 }
 
-#rush-table span
+#rush-table > div > p
+{
+    font-size: medium;
+    text-align: center;
+    padding: 1rem;     
+}
+
+#rush-table > div > p > span
 {
     font-size: x-large;
     font-weight: 650;
-    
-}
-#rush-table p:nth-child(odd)
-{
-    font-family: "Raleway";
-    color: white;
-    background-color: maroon
+    text-align: center;      
 }
 
-#rush-table p:nth-child(even)
+#rush-table div:nth-child(odd)
 {
-    font-family: "Raleway";
+    color: white;
+    background-color: maroon;
+}
+
+#rush-table div:nth-child(even)
+{
     color: maroon;
     background-color: white;
+    
 }
 
+@media screen and (max-width: 800px)
+{
+
+    #overlap
+    {
+        position: static;
+        width: 100%;
+    }
+
+
+    #overlap > #image
+    {
+       display: None
+
+    }
+    #rush-top
+    {
+        margin-right: 1rem;
+        margin-left: 1rem;
+        width: auto;
+        height: auto;
+    }
+
+    #rush-top div:nth-child(2)
+{
+    line-height: 1.7;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-width: 90%;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
