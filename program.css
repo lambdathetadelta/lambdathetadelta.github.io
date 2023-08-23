@@ -1,46 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Raleway:wght@300&display=swap');
 
 #overlap {
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-    /* height: 1000px; */
-    justify-content: space-between;
-}
-
-div {
-    border: solid black 1px;
+    position: relative;
 }
 
 #overlap > img {
-    position: relative;
-    margin-top: 10%;
-    width: 60%;
-    min-width: 500px;
-    max-width: 100%;
-    height: auto;
-    min-height: 375px;
-    /* max-height: 100%; */
-    right: 100px;
-    z-index: 1;
+    position: absolute;
+    float: right;
+    top: 180px;
+    right: 80px;
+    width: 873px;
+    height: 622px;
 }
 
 .panel {
-    position: relative;
+    position: absolute;
     padding-top: 50px;
     padding-left: 100px;
     padding-right: 80px;
     padding-bottom: 100px;
-    margin-top: 200px;
+    margin-top: 170px;
     width: 450px;
-    min-width: 450px;
     height: 450px;
-    min-height: 450px;
-    top: 75px;
-    /* left: 80px; */
-    z-index: 2;
+    top: 100px;
+    left: 80px;
     background-color: rgb(204, 204, 204);
 }
 
