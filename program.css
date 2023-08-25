@@ -17,29 +17,30 @@ div {
 #overlap > img {
     position: relative;
     margin-top: 10%;
-    width: 60%;
-    min-width: 500px;
+    /* width: 60%; */
+    min-width: 900px;
     max-width: 100%;
-    height: auto;
     min-height: 375px;
-    /* max-height: 100%; */
+    max-height: 100%;
     right: 100px;
     z-index: 1;
 }
 
 .panel {
+    /* display: flex;
+    justify-content: column; */
     position: relative;
     padding-top: 50px;
     padding-left: 100px;
     padding-right: 80px;
     padding-bottom: 100px;
     margin-top: 200px;
-    width: 450px;
     min-width: 450px;
-    height: 450px;
+    max-width: 700px;
+    max-height: 700px;
     min-height: 450px;
     top: 75px;
-    /* left: 80px; */
+    left: 80px;
     z-index: 2;
     background-color: rgb(204, 204, 204);
 }
