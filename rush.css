@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&swap=display");
+
+#rush-background
+{
+    margin-top: 6.25em;
+    padding-top: 1.875em;
+    background-color: #CCCCCC;
+    padding-bottom: 1.3em;
+    
+}
+
+#overlap
+{
+    position: relative;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+#image
+{
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    margin-left: -100px;
+    margin-right: auto;
+    z-index: 0;
+}
+
+.img
+{
+    
+    text-align: center;
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: auto;
+}
+
+#rush-top
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50rem;
+    margin-bottom: .75rem;
+    font-size: 70px;
+    margin-left: auto;
+    font-family: "Raleway";
+}
+
+/* #rush-top div:nth-child(1)
+{
+    text-align: center;
+} */
+
+#rush-top div:nth-child(2)
+{
+    line-height: 1.7;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    min-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Open Sans";
+    z-index: 1;
+}
+
+#rush-top div:first-of-type p /* this is RUSH TITLE */
+{
+    font-size: 3.25rem;
+}
+
+#rush-top div:nth-of-type(2) p /* this is the rush description */
+{
+    font-size: 1rem;
+    color: white;
+    padding: 1.25rem;
+    margin: 0px;
+    background-color: maroon;
+}
+
+
+.button 
+{
+    font-weight: 400;
+    transition-duration: 0.4s;
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    z-index: 3;
+  }
+
+  .button:hover {
+
+    background-color: white; 
+    color: black;
+  }
+
+#rush-table /* flex container div for the descriptions of rush week*/
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rush-table > div
+{
+    font-weight: 400;
+    height: 23.75rem;
+    width: 21.25rem;
+    font-family: "Raleway";
+    margin: .25rem;
+}
+
+#rush-table > div > p
+{
+    font-size: medium;
+    text-align: center;
+    padding: 1rem;     
+}
+
+#rush-table > div > p > span
+{
+    font-size: x-large;
+    font-weight: 650;
+    text-align: center;      
+}
+
+#rush-table div:nth-child(odd)
+{
+    color: white;
+    background-color: maroon;
+}
+
+#rush-table div:nth-child(even)
+{
+    color: maroon;
+    background-color: white;
+    
+}
+
+@media screen and (max-width: 1100px)
+{
+
+    #overlap
+    {
+        position: relative;
+        width: 100%;
+        display: block;
+        margin: auto;
+        align-items: center;
+    }
+
+    #image
+    {
+        display: None;
+    }
+    #rush-top
+    {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        width: 850px;
+        max-width: 90%;
+        height: auto;
+    }
+
+    #rush-top div:nth-child(2)
+    {
+        line-height: 1.7;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        min-width: 80%;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

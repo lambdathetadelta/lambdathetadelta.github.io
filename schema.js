@@ -3,6 +3,8 @@
 const supplementaryData = {
     "@context": "https://schema.org/",
     "@type": "Organization",
+    "name": "Lambda Theta Delta",
+    "alternateName": "LTD",
     "contactPoint": [
         {
             "@type" : "ContactPoint",

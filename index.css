@@ -53,7 +53,7 @@ html
 {
     text-align: center;
 }
-#diff-way-bar p
+#diff-way-bar > p
 {
     font-family: "Raleway";
     font-size: 4rem;
@@ -80,7 +80,8 @@ html
 {
     margin-left: auto;
     margin-right: auto;
-    max-width: 700px;
+    max-width: 90%;
+    width: 700px;
     font-family: "Open Sans";
     font-size: 15px;
     line-height: 1.5;
@@ -181,22 +182,15 @@ html
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    max-width: 98%;
     width: 900px;
-    gap: 0px 150px;
 }
-@media screen and (max-width: 900px)
+@media screen and (max-width: 712px)
 {
     #rush-contacts
     {
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
         justify-content: center;
-        width: 100%;
-        gap: 0px 150px;
     }
 }
 .rush-chair
@@ -214,6 +208,10 @@ html
     #rush-contacts
     {
         width: 100%;
+    }
+    #diff-way-buttons
+    {
+        gap: 20px;
     }
 }
 .rush-chair-name
