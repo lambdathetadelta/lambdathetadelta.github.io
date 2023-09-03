@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@350..700&swap=display");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&swap=display");
 
 #rush-background
 {
@@ -45,15 +45,15 @@
     justify-content: center;
     width: 50rem;
     margin-bottom: .75rem;
+    font-size: 70px;
     margin-left: auto;
     font-family: "Raleway";
-    z-index: 3;
 }
 
-#rush-top div:nth-child(1)
+/* #rush-top div:nth-child(1)
 {
     text-align: center;
-}
+} */
 
 #rush-top div:nth-child(2)
 {
@@ -64,13 +64,13 @@
     min-width: 30rem;
     margin-left: auto;
     margin-right: auto;
+    font-family: "Open Sans";
+    z-index: 1;
 }
 
 #rush-top div:first-of-type p /* this is RUSH TITLE */
 {
-    font-weight: 600;
     font-size: 3.25rem;
-    
 }
 
 #rush-top div:nth-of-type(2) p /* this is the rush description */
@@ -121,8 +121,6 @@
     height: 23.75rem;
     width: 21.25rem;
     font-family: "Raleway";
-    border: 1px solid;
-    border-color: black;
     margin: .25rem;
 }
 
@@ -171,22 +169,24 @@
     }
     #rush-top
     {
-        margin-right: 1rem;
-        margin-left: 1rem;
-        width: auto;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        width: 850px;
+        max-width: 90%;
         height: auto;
     }
 
     #rush-top div:nth-child(2)
-{
-    line-height: 1.7;
-    text-align: left;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    min-width: 80%;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
+    {
+        line-height: 1.7;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        min-width: 80%;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
