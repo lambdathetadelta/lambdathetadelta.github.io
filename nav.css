@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Inter&swap=display");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Inter&family=Open+Sans&swap=display");
 
 a
 {
@@ -239,11 +239,12 @@ a:visited
     }
     #mobile-navigation > div
     {
-        background-color: rgba(128, 0, 0, 0.7);
+        background-color: rgba(200, 200, 200, 0.7);
     }
     #mobile-navigation > div
     {
-        width: 70%;
+        width: 300px;
+        max-width: 80%;
         height: max-content;
         margin-left: auto;
         margin-right: auto;
@@ -261,6 +262,7 @@ a:visited
         left: 50%; 
         transform: translateX(-50%);
         height: 10vh;
+        line-height: 10vh;
     }
     .mobile-sub-button-container
     {
@@ -275,9 +277,12 @@ a:visited
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+        font-family: "Open Sans";
+        font-family: 17px;
         height: 10vh;
-        width: 100%;
-        background-color: rgba(128, 0, 0, 0.7);
+        line-height: 10vh; /* So vertically align text*/
+        width: inherit;
+        background-color: rgba(256, 256, 256, 0.9);
     }
     .mobile-exp {
         display: inline-flex;
@@ -297,7 +302,7 @@ a:visited
         content: "";
         width: 20px;
         height: 3px;
-        background-color: white;
+        background-color: rgba(0, 0, 0, 0.8);
         border-radius: 99999px;
         transition: opacity var(--animation-delay), 
         width var(--animation-delay), 
