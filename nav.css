@@ -124,7 +124,8 @@ a:visited
 #hamburger, 
 #hamburger::before,
 #hamburger::after,
-#hamburger input
+#hamburger input,
+#mobile-navigation
 {
     display: none;
 }
