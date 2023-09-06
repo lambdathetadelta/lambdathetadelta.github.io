@@ -133,7 +133,7 @@ h1 {
     }
 
     .panel {
-        position: static;
+        top: 0;
         padding-left: 10%;
         padding-right: 10%;
         margin-right: 5%;
