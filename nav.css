@@ -259,11 +259,11 @@ a:visited
         font-family: "Inter";
         font-size: 19px;
         color: black;
-        position: relative;
-        left: 50%; 
-        transform: translateX(-50%);
         height: 10vh;
         line-height: 10vh;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
     }
     .mobile-sub-button-container
     {
@@ -294,8 +294,8 @@ a:visited
         cursor: pointer;
         translate: 0 -5px;
         position: relative;
-        left: 50%; 
-        transform: translateX(-120%);
+        left: 50%;
+        transform: translateX(-50%);
     }
     .mobile-exp::before,
     .mobile-exp input
