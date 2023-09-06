@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Raleway:wght@300&display=swap');
+
+#overlap {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+}
+
+
+#overlap > img {
+    position: relative;
+    margin-top: 10%;
+    min-width: 1000px;
+    max-width: 2000px;
+    min-height: 375px;
+    max-height: 100%;
+    right: 125px;
+    
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 80px;
+    padding-bottom: 100px;
+    margin-top: 200px;
+    min-width: 450px;
+    max-width: 1250px;
+    max-height: 750px;
+    min-height: 450px;
+    top: 75px;
+    left: 3vw;
+    z-index: 1;
+    background-color: rgb(204, 204, 204);
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3vw;  /* was 56 */
+    font-weight: 300;
+}
+
+.panel-text {
+    font-size: 1.2vw;  /* was 18 or 1.2vw */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color:  rgb(77, 74, 74);
+    line-height: 2vw;  /* was 32 */
+
+}
+
+.interest-form {
+    font-size: 1.1vw; /* was 18 */
+    background-color: rgb(117,20,12);
+    color: white;
+    width: 10vw;
+    height: 2.5vw; 
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.interest-form:hover {
+    background-color: gainsboro;
+    color: black;
+}
+
+#the-program-h1 {
+    margin-top: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+
+}
+
+.panels{
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.panels > div {
+    border: 1px solid;
+    border-color: rgb(117,20,12);
+    box-shadow: 3px 3px 4px 0 rgba(107, 30, 35, 1);
+    height: 380px;
+    width: 340px;
+    margin: 20px;
+}
+
+.panels > div > h3 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;   
+    font-weight: 300;
+}
+
+.panels > div > p {
+    margin: 15px;
+    font-family: 'Raleway', sans-serif;   
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 1200px) {
+    #overlap > img {
+        position: static;
+        display: none;
+        top: 1px;
+        right: 1px;
+        width: 1px;
+        height: 1px;
+    }
+    #overlap {
+        position: static;
+    }
+
+    .panel {
+        top: 0;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-right: 5%;
+        margin-left: 5%;
+        width: auto;
+        height: auto;
+        min-width: 0px;
+        min-height: 0px;
+        background-color: rgb(204, 204, 204);
+    }
+
+    #the-program-h1 {
+        margin-top: 150px;
+    }
+
+    #spaceholder-div {
+        display: none;
+    }
+
+    h1 {
+        font-size: 56px;
+    }
+
+    .panel-text {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .interest-form {
+        font-size: 18px;
+        width: 200px;
+        height: 40px;
+    }
+/* 
+    .panels {
+        margin-left: auto;
+        margin-right: auto;
+    } */
+}
+
+
+@media only screen and (min-width: 1700px) {
+    .panel-text {
+        font-size: 21px;
+        line-height: 35px;
+    }
+
+    h1 {
+        font-size: 56px;
+    }
+
+    .interest-form {
+        font-size: 18px;
+        width: 170px;
+        height: 40px;
+    }
+}
+
