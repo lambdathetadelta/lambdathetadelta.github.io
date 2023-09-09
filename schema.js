@@ -29,7 +29,7 @@ const supplementaryData = {
         } ,
         {
             "@type" : "ContactPoint",
-            "telephone" : "+1-646-345-3790",
+            "telephone" : "+1-714-588-9737",
             "contactType" : "membership inquiries",
             "areaServed" : "US",
             "availableLanguage" : "English"
@@ -43,3 +43,10 @@ contactElement.type = "application/ld+json";
 contactElement.textContent = JSON.stringify(supplementaryData);
   
 document.head.appendChild(contactElement);
+
+const faviconElement = document.createElement("link")
+faviconElement.type = "image/png";
+faviconElement.rel = "link";
+faviconElement.href = "imgs/LTDCrestWhiteV1.png";
+
+document.head.appendChild(faviconElement);
