@@ -9,7 +9,7 @@ html
 {
     background-attachment: fixed;
     background-size: cover;
-    background-image: url("imgs/background.jpg");
+    background-image: url("imgs/background.webp");
     background-repeat: no-repeat;
     background-position: center;
     height: 60em;
